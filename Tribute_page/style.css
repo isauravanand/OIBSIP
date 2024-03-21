@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* display: inline; */
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    font-family: system-ui;
+}
+
+.center-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    height: 300px ;
+    width: 100%;
+    background-color:white;
+    font-family: system-ui;
+}
+
+.center-part img{
+   height: 300px;
+   width: 197px;
+   margin-top: 2.98px;
+   object-fit: cover;
+}
+.quote{
+   margin-right: 20rem;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 359px;
+    width: 100%;
+    color: aliceblue;
+    font-family: system-ui;
+    text-align: center;
+}
+
